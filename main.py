@@ -28,6 +28,7 @@ while str(datetime.now().strftime("%H:%M")) != inpt:
 else:
     i = 0
     while i < times:
+        clear()
         alring = ToastNotifier()
         mixer.init()
         mixer.music.load('ringtone.wav')
